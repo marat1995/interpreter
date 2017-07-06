@@ -35,7 +35,7 @@ switch(code[i]){
    }
  if(error>0){
  //if error
-    out = "Syntax error";
+    out = [error];
  }
  return out;
 }
